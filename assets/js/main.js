@@ -10,6 +10,13 @@ if(navToggle) {
     navMenu.classList.add('show-menu')
   })
 }
+// text animation
+var typed = new Typed(".typing-2", {
+  strings: ["Computer Engineer", "Front-End Developer", "Systems Adminstrator", "Support Engineer"],
+  typeSpeed: 100,
+  backSpeed: 60,
+  loop: true
+});
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
